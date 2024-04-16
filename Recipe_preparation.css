@@ -27,3 +27,14 @@ p {text-align: center;}
                  flex-direction: column;
                  padding: 5px;
                      }
+@media screen and (min-width: 400px){
+.signup_container{
+  width: 350px;
+        }
+    }
+                    
+                    @media screen and (orientation: landscape){
+                        .signup_container{
+                            width: 300px;
+                        }
+                    }

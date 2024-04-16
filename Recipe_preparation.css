@@ -1,0 +1,29 @@
+h1 {text-align: center; background-color: coral;} 
+
+p {text-align: center;} 
+
+                    body {
+                        margin: 0px;
+                        background-color: bisque;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        height: 100vh;
+                        
+                    }
+
+            .container {display: flex;
+                        background-color: lightgreen;
+                        justify-content: center;
+                        align-items: center;
+                        box-shadow: 10px 10px 10px grey;
+                        border-radius: 10px;
+                        width: 50vw;
+                       }
+
+            .content {margin: 0px;
+                 text-align: left;
+                 display: flex;
+                 flex-direction: column;
+                 padding: 5px;
+                     }
